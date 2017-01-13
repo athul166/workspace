@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="https://use.fontawesome.com/47cdbd18c3.js"></script>
+  </head>
+  <body>
+  <!-- main container -->
+  <div class="container" id="main">
+     <!-- navbar -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <!-- nav container-->
+        <div class="container">
+
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+             <a class="navbar-brand" href="#">Wayne Corp</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+             <li><a href="#">Home</a></li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                      <li><a href="#">abc</a></li>
+                      <li><a href="#">xyz</a></li>
+                      <li><a href="#">qwe</a></li>
+                 </ul>
+             </li>
+             <li><a href="#">Opportunities</a></li>
+             <li><a href="#">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+             <li><a href="#myModal" role="button" data-toggle="modal">Contact</a></li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Account <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </div>   <!-->navigation bar closed</!-->
+
+  <!-- carousel -->
+  <div class="carousel slide" id="myCarousel" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+      <li data-slide-to="1" data-target="#myCarousel"></li>
+      <li data-slide-to="2" data-target="#myCarousel"></li>
+    </ol>
+
+    <!--slides -->
+    <div class="carousel-inner">
+      <div class="item active" id="slide1">
+        <img class="img-responsive" src="images/batman.jpg" alt="Batman">
+        <div class="carousel-caption">
+          <h4>Batman</h4>
+          <p>"It's not who I am underneath, but what I do that defines me."</p>
+        </div>
+      </div>
+
+      <div class="item" id="slide2">
+        <img class="img-responsive" src="images/batman2.jpg" alt="Batman">
+        <div class="carousel-caption">
+          <h4>Dent</h4>
+          <p>"You either die a hero or you live long enough to see yourself become the villain."</p>
+        </div>
+      </div>
+
+      <div class="item" id="slide3">
+        <img class="img-responsive" src="images/batman3.jpeg" alt="Batman">
+        <div class="carousel-caption">
+          <h4>Alfred</h4>
+          <p>"Why do we fall sir? So we might learn to pick ourselves up."</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+    <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+  </div>
+  <!-- carousel closed -->
+
+  <!-- 3 section part -->
+  <div class="row">
+    <div class="col-sm-4 feature">
+      <div class="panel">
+        <div class="panel-heading">
+          <h2 class="panel-title"><strong>RasAlGul</strong></h2>
+        </div>
+        <img class="img-responsive" src="images/first.jpg" alt="RasAlGul">
+        <p>Ra's al Ghul is an international terrorist and assassin whose ultimate goal is a world in perfect environmental balance. He believes that the best method by which this can be achieved is to eliminate most of humanity. Ra's usually tries to assault the world's human populace with a biological weapon, such as a genetically-engineered virus. He is aided in this quest by the Lazarus Pits, reservoirs of rejuvenating chemicals that restore the dying to life; these pits have granted him a lifespan of several hundred years.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 feature">
+      <div class="panel">
+        <div class="panel-heading">
+          <h2 class="panel-title"><strong>Joker</strong></h2>
+        </div>
+        <img class="img-responsive" src="images/second.jpg" alt="Joker">
+        <p>The Joker is a fictional supervillain from American comic book publisher DC Comics who was portrayed by late Australian actor Heath Ledger in Christopher Nolan's 2008 superhero film The Dark Knight. Ledger's interpretation of the character is specifically influenced by the graphic novels Batman: The Killing Joke and Arkham Asylum: A Serious House on Serious Earth. In the film, he wears the character's traditional color palette, while his facial appearance includes clown makeup that covers facial scars of a Glasgow smile.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 feature">
+      <div class="panel">
+        <div class="panel-heading">
+          <h2 class="panel-title"><strong>Bane</strong></h2>
+        </div>
+        <img class="img-responsive" src="images/third.jpg" alt="Bane">
+        <p>A mysterious and physically imposing revolutionary who was excommunicated from the League of Shadows and portrays himself as a "liberator of pain". He is desperate to continue Ra's al Ghul's legacy by destroying Gotham. The character was chosen by Christopher Nolan because of his desire to see Batman tested on both a physical and mental level.[6][20] According to costume designer Lindy Hemming, the character wears a mask that supplies him with an analgesic gas to relieve pain he suffers from an injury sustained.</p>
+      </div>
+    </div>
+  </div>
+<!-- 3 section closed -->
+  <div class="row">
+    <div class="col-sm-5">
+      <img class="img-responsive" src="images/Alfred.jpg" alt="Alfred">
+    </div>
+    <div class="col-sm-7">
+      <h1>Alfred Pennyworth</h1>
+      <p>Alfred Thaddeus Crane Pennyworth is a fictional character appearing in American comic books published by DC Comics, most commonly in association with Batman. Pennyworth is depicted as Bruce Wayne's loyal and tireless butler, legal guardian, best friend, aide-de-camp, and surrogate father figure following the murders of Thomas and Martha Wayne. As an ex-Special Air Service operative of honor and ethics with connections within the intelligence community, he has been called "Batman's batman".[1][2][3] He also provides comic relief, as his sarcastic and cynical attitude often adds humor to dialogue between himself and Batman. A vital part of the Batman mythos, Alfred was nominated for the Wizard Fan Award for Favorite Supporting Male Character in 1994. In non-comics media, the character has been portrayed by noted actors William Austin, Eric Wilton, Michael Gough, Michael Caine, and Jeremy Irons on film and by Alan Napier, Efrem Zimbalist, Jr., Ian Abercrombie, David McCallum, and Sean Pertwee on television.</p>
+    </div>
+  </div>
+  <!-- 2 secton closed -->
+  <hr>
+  <!-- tab section -->
+
+  <div class="row">
+      <div class="col-sm-12">
+        <h3>Tabbable Content</h3>
+        <div class="tabbable">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+              <h4>Bruce Wayne</h4>
+              <img class="img-responsive"src="images/bruce.jpg" class="thumbnail pull-left" alt="Bruce" width="200px" height="200px">
+              <p>Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger,[4][5] and first appeared in Detective Comics #27 (1939). Originally named the "Bat-Man", the character is also referred to by such epithets as the Caped Crusader, the Dark Knight, and the World's Greatest Detective.[6]Batman's secret identity is Bruce Wayne, an American billionaire, playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.[7] Batman operates in the fictional Gotham City, with assistance from various supporting characters, including his butler Alfred, police commissioner Gordon, and vigilante allies such as Robin. Unlike most superheroes, Batman does not possess any superpowers; rather, he relies on his genius intellect, physical prowess, martial arts abilities, detective skills, science and technology, vast wealth, intimidation, and indomitable will. A large assortment of villains make up Batman's rogues gallery, including his archenemy, the Joker.Batman became popular soon after his introduction in 1939 and gained his own comic book title, Batman, the following year. As the decades went on, differing interpretations of the character emerged. The late 1960s Batman television series used a camp aesthetic, which continued to be associated with the character for years after the show ended. Various creators worked to return the character to his dark roots, culminating in 1986 with The Dark Knight Returns by Frank Miller. The success of Warner Bros.' live-action Batman feature films have helped maintain the public's interest in the character.</p>
+            </div>
+            <div class="tab-pane" id="tab2">
+              <h4>Batman</h4>
+              <img class="img-responsive"src="images/batman1.jpg" class="thumbnail pull-left" alt="Batman1" width="300px" height="300px">
+              <p>Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger,[4][5] and first appeared in Detective Comics #27 (1939). Originally named the "Bat-Man", the character is also referred to by such epithets as the Caped Crusader, the Dark Knight, and the World's Greatest Detective.[6]Batman's secret identity is Bruce Wayne, an American billionaire, playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.[7] Batman operates in the fictional Gotham City, with assistance from various supporting characters, including his butler Alfred, police commissioner Gordon, and vigilante allies such as Robin. Unlike most superheroes, Batman does not possess any superpowers; rather, he relies on his genius intellect, physical prowess, martial arts abilities, detective skills, science and technology, vast wealth, intimidation, and indomitable will. A large assortment of villains make up Batman's rogues gallery, including his archenemy, the Joker.Batman became popular soon after his introduction in 1939 and gained his own comic book title, Batman, the following year. As the decades went on, differing interpretations of the character emerged. The late 1960s Batman television series used a camp aesthetic, which continued to be associated with the character for years after the show ended. Various creators worked to return the character to his dark roots, culminating in 1986 with The Dark Knight Returns by Frank Miller. The success of Warner Bros.' live-action Batman feature films have helped maintain the public's interest in the character.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <hr>
+<!-- Modal window -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+
+          <h4 class="modal-title">Ask Queries</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="col-lg-2 control-label" for="inputName">Name</label>
+              <div class="col-lg-10">
+                <input class="form-control" id="inputName" placeholder="Name" type="text">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+              <div class="col-lg-10">
+                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+              <div class="col-lg-10">
+                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                <button class="btn btn-success pull-right" type="submit">Send!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div><!-- end myModal -->
+</div>
+<!--main container closed  -->
+<footer>Connect with
+    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</footer>
+  </body>
+</html>
